@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>天码营经验: Spring表单提交处理</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1>表单处理演示</h1>
+<form action="#" th:action="@{/hotkey/getKey}" th:object="${key}" method="post">
+    <p>key: <input type="text" th:field="*{kw}"/></p>
+    <p><input type="submit" value="Submit"/> <input type="reset" value="Reset"/></p>
+</form>
+</body>
+</html>

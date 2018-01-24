@@ -1,0 +1,7 @@
+server:
+  port: 8082
+  context-path: /hotkeys
+
+testName: hljElena---prod
+testAge: 23---prod
+content: "testName: ${testName} , testAge: ${testAge}"
